@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(18, 17, 17);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+header{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo,.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo{
+    width: 100px;
+    height:100px;
+    /* background-color:black; */
+    margin-top: 15px;
+}
+
+.logo i{
+    font-size: 50px;
+    color: white;
+}
+.heading{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    margin-top: -13px;
+
+}
+.heading h2{
+    font-size: 24px;
+    font-weight: 350;
+    color: white;
+
+}
+.form-container{
+    width: 22%;
+    height: 232px;
+    background-color:#16181b;
+    border-radius: 8px;  
+    margin: auto;
+    margin-top: 10px;
+    opacity: 0.9;
+    
+    
+}
+.form-container,.passkey{
+    border: solid 1px;
+    border-color:rgb(69, 69, 69);
+}
+
+.input-group input{
+    width: 100%;
+    height: 34px;
+    border-radius: 7px;
+    background-color:rgb(18, 17, 17);
+    border: solid 1.5px;
+    border-color:rgb(69, 69, 69);
+    outline: none;
+}
+.login-form{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.label-box{
+    padding-top: 17px;
+    padding-bottom: 9px;
+    display: block;
+    width: 100%;
+    color: white;
+    
+}
+#btn{
+    margin-top: 19px;
+    background-color: #238636;
+    color: white;
+    font-size: 14px;
+    font-weight: var(--base-text-weight-medium, 500);
+}
+.label-box a{
+    float: right;
+    text-decoration: none;
+    font-size:13px ;
+    color:#2f81f7
+}
+.passkey{
+    width: 22%;
+    height: 100px;
+    background-color:rgb(18, 17, 17);
+    border-radius: 7px;
+    /* border: solid 1px;
+    border-color:rgb(69, 69, 69); */
+    margin: auto;
+    margin-top: 23px;
+
+}
+.para{
+    color: white;
+    text-align: center;
+}
+.para a{
+    text-decoration: none;
+    color: #2f81f7;
+}
+.footer{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 89px;
+
+}
+.footer a{
+    text-decoration: none;
+    padding: 7px;
+    color: #848d97;
+    font-size: 13px;
+}
+.footer a:hover{
+    color: #2f81f7;
+}
+.input-group input:focus{
+    border-color: #2f81f7;
+}
